@@ -18,7 +18,7 @@ const mainBackground = document.getElementById('main-background')
 
 const pinkButton = document.getElementById('pink-button');
 pinkButton.addEventListener('click', () => {
-    mainBackground.style.backgroundColor = "#f52c7c"
+    mainBackground.style.backgroundColor = "#ff00bf"
 });
 
 const blueButton = document.getElementById('lightblue-button');
@@ -29,4 +29,21 @@ blueButton.addEventListener('click', () => {
 const greenButton = document.getElementById('lightgreen-button');
 greenButton.addEventListener('click', () => {
     mainBackground.style.backgroundColor = "#acfc32"
+});
+
+const nametagColor = document.getElementById('nametag')
+
+const pinkNameTagColor = document.getElementById('pink-nametag');
+pinkNameTagColor.addEventListener('click', () => {
+    nametagColor.style.backgroundColor = "#f598cd"
+});
+
+const yellowNameTagColor = document.getElementById('yellow-nametag');
+yellowNameTagColor.addEventListener('click', () => {
+    nametagColor.style.backgroundColor = "#faff70"
+});
+
+const lavNameTagColor = document.getElementById('lav-nametag');
+lavNameTagColor.addEventListener('click', () => {
+    nametagColor.style.backgroundColor = "#9a74f2"
 });
